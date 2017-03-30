@@ -2,7 +2,7 @@
 hosts file from internet. Combined sources for mobile and desktop.
 
 
-################INSTALLATION
+################INSTALLATION for DD-Wrt
 
 Open the hosts text file in Notepad, TextEdit, or Notepad++, or another text editor. Highlight all the text in the file and copy it.
 1. Go to your router's web interface through your web browser, typically by entering the URL http://192.168.1.1. If you assigned your router a different local IP address, use that instead.
@@ -19,3 +19,18 @@ Open the hosts text file in Notepad, TextEdit, or Notepad++, or another text edi
 12. You are now finished. Type exit and hit enter.
 13. Test out your configuration. Use a computer or connected device to use the local commands "ping" or "tracert" on known good sites (like google.com) vs. sites on the hosts list. The known good sites should have much higher ping times than the sites on the hosts list (for example, 12 ms versus less than 1 ms). The "tracert" (traceroute) comamnd should show a much lengthier Internet path to the good site than the bad site (which should only be one or two hops).
 14. Again, repeat all these steps if your router goes down or is rebooted for some reason.
+
+
+########################INSTALLATION MAC, IOS, Android
+
+Replace hosts file in /etc/hosts
+
+MAKE A BACKUP
+
+#############################Windows: 
+
+located in C:/Windows/system32/drivers/etc/hosts
+
+AGAIN MAKE A BACKUP
+
+NO credit to me found all this stuff on the web and grouped it together for personal use. Thanks for all the hard work of others.
